@@ -107,7 +107,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    SnapdragonCamera
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -145,7 +145,7 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # Gesture handler
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     GestureHandler
 
 # GPS
@@ -234,7 +234,7 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_flacdec
 
 # Power
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     power.msm8996
 
 # QMI
