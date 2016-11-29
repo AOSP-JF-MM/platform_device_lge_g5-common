@@ -244,6 +244,12 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_soft_flacdec
 
+# OTA Updates
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.ota.romname=AOSP-G5-7.1 \
+    ro.ota.version=$(shell date -u +%Y%m%d) \
+    ro.ota.manifest=https://romhut.com/roms/aosp-g5-7-1/ota.xml
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8996 \
