@@ -255,6 +255,10 @@ PRODUCT_PACKAGES += \
     power.msm8996 \
     thermal.msm8996
 
+# Recovery
+PRODUCT_PACKAGES += \
+    librecovery_updater_g5
+
 # RIL
 PRODUCT_PACKAGES += \
     liblge \
