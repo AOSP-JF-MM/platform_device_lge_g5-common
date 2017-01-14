@@ -248,7 +248,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ota.romname=AOSP-G5-7.1 \
     ro.ota.version=$(shell date -u +%Y%m%d) \
-    ro.ota.manifest=https://romhut.com/roms/aosp-g5-7-1/ota.xml
+    ro.ota.manifest=https://romhut.com/roms/aosp-g5-7-1-310/ota.xml
 
 # Power
 PRODUCT_PACKAGES += \
